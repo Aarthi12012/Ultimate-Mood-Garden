@@ -1,6 +1,7 @@
 let flowerCount = 0;
 let goldenCount = 0;
 
+
 let moodStats = {
     happy: 0,
     sad: 0,
