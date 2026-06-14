@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌸 Ultimate Mood Garden 🌸</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="title">🌸 Ultimate Mood Garden 🌸</h1>
+
+<p class="subtitle">
+Plant flowers based on your mood and grow your magical garden!
+</p>
+
+<div class="top-grid">
+
+<div class="glass">
+
+<h2 class="section-title">Choose Your Mood</h2>
+
+<div class="mood-buttons">
+
+<button class="mood-btn happy" onclick="plantFlower('happy')">
+😊 Happy
+</button>
+
+<button class="mood-btn sad" onclick="plantFlower('sad')">
+😢 Sad
+</button>
+
+<button class="mood-btn cool" onclick="plantFlower('cool')">
+😎 Cool
+</button>
+
+<button class="mood-btn angry" onclick="plantFlower('angry')">
+😡 Angry
+</button>
+
+<button class="mood-btn sleepy" onclick="plantFlower('sleepy')">
+😴 Sleepy
+</button>
+
+</div>
+
+<div class="quote-box" id="quote">
+🌱 Choose a mood and grow your garden.
+</div>
+
+<div class="controls">
+
+<button class="control-btn" onclick="toggleDarkMode()">
+🌙 Dark Mode
+</button>
+
+<button class="control-btn" onclick="resetGarden()">
+🗑 Reset Garden
+</button>
+
+</div>
+
+</div>
+
+<div class="glass">
+
+<h2 class="section-title">Garden Statistics</h2>
+
+<div class="stats">
+
+<div class="stat-card">
+<div class="stat-number" id="flowerCount">0</div>
+Flowers
+</div>
+
+<div class="stat-card">
+<div class="stat-number" id="goldCount">0</div>
+Golden
+</div>
+
+<div class="stat-card">
+<div class="stat-number" id="levelNum">1</div>
+Level
+</div>
+
+<div class="stat-card">
+<div class="stat-number" id="favMood">😊</div>
+Favorite
+</div>
+
+</div>
+
+<div class="level-box" id="levelText">
+🌱 Seedling
+</div>
+
+<div class="achievement" id="achievement">
+No achievements yet
+</div>
+
+</div>
+
+</div>
+
+<div class="glass garden" id="garden">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
